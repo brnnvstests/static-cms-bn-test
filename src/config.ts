@@ -3,9 +3,9 @@ import type { Config } from "@staticcms/core";
 const config: Config = {
   backend: {
     name: "github",
-    repo: "brnnvstests/static-cms-bn-test",
+    repo: "StaticJsCMS/static-cms-next-vercel-template",
     branch: "main",
-    base_url: "https://static-cms-bn-test.vercel.app/",
+    base_url: "https://static-cms-next.vercel.app/",
     auth_endpoint: "api/auth",
   },
   media_folder: "public/images",
